@@ -2,13 +2,30 @@
     height: 70px;
     width: 100%;
     background: #43474f;
-    color: white;
+    color: #ffffff;
     font-size: 12px;
     display: flex;
     flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.footer-carfax-copyright {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5em;
+}
+
+.footer-carfax-copyright p{
+    margin: 0;
 }
 
 .footer-links a{
     text-decoration: none;
-    color: white;
+    color: #cccccc;
 }
