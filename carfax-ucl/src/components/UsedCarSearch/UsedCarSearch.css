@@ -24,3 +24,16 @@
 .search-body {
     padding: 22px 19px 10px;
 }
+
+.search-form-button {
+    background-color: #7dc243;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+    padding: .6em 1em;
+    margin: 0 0 1rem;
+    float: right;
+}

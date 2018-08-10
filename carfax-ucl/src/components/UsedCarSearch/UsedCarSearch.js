@@ -17,7 +17,7 @@ class UsedCarSearch extends Component {
                     <form method="POST">
                         <CarSearchSelect />
                         <CarSearchSelect />
-                        <button type="submit">Submit</button>
+                        <button type="submit" className="search-form-button">Next</button>
                     </form>
                     </div>
                 </div>
