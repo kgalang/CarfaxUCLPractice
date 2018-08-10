@@ -1,0 +1,23 @@
+.headline {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headline h2 {
+    color: #3777bc;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.headline h3 {
+    color: #424242;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0px 0px 6px 0px;
+}
+
+.headline-strong {
+    font-weight: 600;
+}
