@@ -1,0 +1,43 @@
+.search-container {
+    color: #424242;
+    background-color: white;
+    width: 100%;
+    max-width: 333px;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.search-tabs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-tabs button {
+    font-size: 16px;
+    width: 50%;
+    padding: 10px;
+}
+
+.search-body {
+    padding: 22px 19px 10px;
+}
+
+.select-container {
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+
+.search-select {
+    width: 100%;
+    font-size: 14px;
+    height: 2.75rem;
+    background-image: url(https://www.carfax.com/uclassets/images/select-arrow.svg);
+    background-repeat: no-repeat;
+    background-color: inherit;
+    border: none;
+    background-position: right;
+}
