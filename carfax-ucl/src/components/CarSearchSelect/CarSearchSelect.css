@@ -1,0 +1,18 @@
+.select-container {
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    padding: 0 5px;
+    margin-bottom: 1rem;
+}
+
+.search-select {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    height: 2rem;
+    background-image: url(https://www.carfax.com/uclassets/images/select-arrow.svg);
+    background-repeat: no-repeat;
+    background-color: inherit;
+    border: none;
+    background-position: right;
+}

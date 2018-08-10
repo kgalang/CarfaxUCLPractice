@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './UsedCarSearch.css';
+import CarSearchSelect from '../CarSearchSelect/CarSearchSelect';
 
 
 class UsedCarSearch extends Component {
@@ -14,12 +15,8 @@ class UsedCarSearch extends Component {
                     </div>
                     <div className="search-body">
                     <form method="POST">
-                        <div className="select-container">
-                            <select className="search-select">
-                                <option value="test 1">Test 1</option>
-                                <option value="test 2">Test 2</option>
-                            </select>
-                        </div>
+                        <CarSearchSelect />
+                        <CarSearchSelect />
                         <button type="submit">Submit</button>
                     </form>
                     </div>
