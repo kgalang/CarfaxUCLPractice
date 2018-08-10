@@ -1,0 +1,14 @@
+.footer {
+    height: 70px;
+    width: 100%;
+    background: #43474f;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
