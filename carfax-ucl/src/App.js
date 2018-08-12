@@ -13,6 +13,7 @@ class App extends Component {
         <Navbar />
         <Headline />
         <UsedCarSearch />
+        <img className="carfox-image" src="https://www.carfax.com/uclassets/images/desktop-carfox-sign.png" alt="Carfox Free Report"></img>
         <Footer />
       </div>
     );
