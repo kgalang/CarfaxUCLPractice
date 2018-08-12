@@ -17,6 +17,14 @@ class UsedCarSearch extends Component {
                     <form method="POST">
                         <CarSearchSelect />
                         <CarSearchSelect />
+                        <div className="certified-preowned-container">
+                            <input className="preowned-checkbox" type="checkbox" name="certified-preowned" value="certified-preowned"/>
+                            <label for="certified-preowned">Certified Pre-Owned Vehicles</label>
+                        </div>
+                        <div className="zip-container">
+                            <label for="zip-code">near zip code </label>
+                            <input className="zip-input" type="text" name="zip-code" minLength="5" maxLength="5"/>
+                        </div>
                         <button type="submit" className="search-form-button">Next</button>
                     </form>
                     </div>
